@@ -1,0 +1,149 @@
+.block1{
+    height: 400px; width: 100%;
+}
+.block2{
+    height: 400px; width: 100%; 
+}
+.block3{
+    height: 400px; width: 100%; 
+}
+.block4{
+    height: 200px; width: 300px;
+}
+.final{
+    background-color: darkslategray;
+    color: floralwhite;
+    text-align: center;
+}
+.servi{
+    text-align: center;
+    color: seashell;
+    font-size: 30px;
+}
+.main-header{
+	min-height: 300px;
+	position: relative; 
+}
+.background-overlay{ 
+	position: absolute; 
+    background-color: darkgray;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;   
+}
+.mapa{
+    font-size: 30px;
+}
+.ubicacion{
+    color: seashell;
+}
+.carousel-caption{
+    color: black;
+}
+.texto{
+    font-size: 30px;
+    color: chocolate;
+}.home{
+    width: 100px;
+}
+.fa-home{
+    color: #2977EB;
+}
+.blue{
+    color: #2977EB;
+}
+.fa-handshake-o{
+    color: #2977EB;
+}
+.imgfin{
+    width: 500px;  height: 100px;
+}
+.divvideo{
+    text-align: center;
+}
+.bton{
+    text-align: center;
+}
+.block6{
+    width: 500px; height: 250px;
+}
+.block7{
+    width: 400px; height: 250px;
+}
+.proy1{
+    height: 250px; width: 430px;
+}
+.miem{
+    width: 100%; height: 200px;
+}
+.modal{
+    position: fixed;
+    overflow: auto;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+}
+.flex{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.contenido-modal{
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    width: 40%;
+    box-shadow: 0 0 6px  rgba(0,0,0,0.4);
+    animation-name: modal;
+    animation-duration: 2s;
+}
+@keyframes modal{
+    from{top:-400px;opacity:3;}
+    to{top:0; opacity: 1;}
+}
+.close{
+    color: #f2f2f2;
+    font-size: 30px;
+    font-weight: bold;
+}
+.close:hover{
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* definir un color a la cabecera y al pie */
+.modal-header,.footer{
+    padding: 8px 16px;
+    background: darkcyan;
+    color: white;
+    text-align: justify;
+}
+.modal-body{
+    padding: 20px 16px;
+    text-align: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.imgmod1{
+    width: 200px; height: 150px;
+}
+.divimgmod1{
+    text-align: center;
+}
+.serfor{
+    height: 300px; width: 400px; 
+}
+.boton{
+    text-align: center;
+}
+.proyectoscayau{
+    text-align: center;
+}
